@@ -35,7 +35,7 @@ blocks:
       jobs:
         - name: Test
           commands:
-            - go test ./...
+            - go test
   - name: Build
     task:
       env_vars:
